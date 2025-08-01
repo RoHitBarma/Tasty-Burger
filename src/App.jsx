@@ -1,0 +1,19 @@
+import Header from "./components/Header"
+import AppRoutes from "./routes/AppRoutes"
+// import Hero from "./components/Hero"
+import Footer from "./components/Footer"
+function App() {
+
+  return (
+    <>
+      <div>
+        <Header />
+        <AppRoutes />
+        <Footer />
+      </div>
+      {/* <Hero /> */}
+    </>
+  )
+}
+
+export default App
